@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录 数字尾巴</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+</head>
+<body>
+        <!--  公共头部开始  -->
+			<div class="public-head">
+			  <div class="container">
+				<div class="logo"><a href="#" title="数字尾巴"><img src="images/logo.png"></a></div>
+				<div class="nav">
+					<ul>
+						<li><a href="index.html" class="a">首页</a></li>
+						<li><a href="#">社区</a>
+							<ul>
+								<li><a href="#">尾巴主版</a></li>
+								<li><a href="#">尾巴认证</a></li>
+								<li><a href="#">纠结尾巴</a></li>
+								<li><a href="#">尾巴良品</a></li>
+								<li><a href="#">站务交流</a></li>
+							</ul>
+						</li>
+						<li><a href="#">甩甩尾巴</a></li>
+						<li><a href="#">尾巴周边</a></li>
+						<li><a href="#">客户端</a></li>
+					</ul>
+				</div>
+				
+				<div class="login">
+					<a href="#" >登 录</a>
+					<a href="signup.html" style="background:none;color: #000;">注 册</a>
+				</div>
+				<div class="search">
+				  <form method="post" action="#">
+					<input type="text" id="header_search" placeholder="搜索文章、帖子、用户">
+					<button class="search_btn" type="submit">搜索</button>
+				  </form>
+				</div>
+				</div>
+			</div>
+		<!--  公共头部结束 -->
+		<div class="login-bg">
+		<div class="login-container">
+			<div class="login-body">
+				<form>
+				  <div class="form-remember">
+				  	<label for="name">账号：</label>
+				  	<input type="text" maxlength="37" name="email" placeholder="请输入登录邮箱/手机号">
+					<p data-error-hint="请输入正确的邮箱或手机号">请输入正确的邮箱或手机号</p>
+				  </div>
+				  <div class="form-remember">
+				  	<label for="password">密码：
+				  	</label><input type="password" maxlength="16" name="password" placeholder="6-16位密码，区分大小写，不能用空格" />
+				  	<p class="" data-error-hint="请输入6-16位密码，区分大小写，不能用空格！">请输入6-16位密码，区分大小写，不能用空格！</p>
+				  </div>
+				  <div class="verfy" style="display: none;">
+				  		<input name="verify" maxlength="4" placeholder="请输入验证码" type="text" />
+				  		<a href=""></a>
+				  </div>
+				  <div>
+				  	<label>
+				  		<input checked="checked" type="checkbox">下次自动登录
+				  	</label>
+				  	<button class="btn">登录</button>
+				  	<label class="form-bottom-link"><a href="#" class="" target="_blank" hidefocus="true">忘记密码</a></label>
+				  </div>
+				</form>
+			</div>
+		</div>
+      </div>
+     
+</body>
+</html>
